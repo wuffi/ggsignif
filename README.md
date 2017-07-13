@@ -9,7 +9,8 @@ Easily add significance bars to your ggplots
 Description
 -----------
 
-This package provides an easy way to indicate if two groups are significantly different. Commonly this is shown with a by a bar on top connecting the groups of interest which itself is annoted with the level of significance (NS, *, **, ***). The package provides a single layer (geom\_signif) that takes the groups for comparison and the test (t.test, wilcox etc.) and adds the annotation to the plot.
+This package provides an easy way to indicate if two groups are significantly different. Commonly this is depicted by a bar on top connecting the groups of interest which itself is annoted with the level of significance (NS, *, **, ***). 
+In order to add this kind of annotation to a plot, thi package provides a single layer (geom\_signif) which takes as its parameters the groups to compare and the test (t.test, wilcox etc.) to be used.
 
 Example
 -------
